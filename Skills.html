@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSD</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <header>
+        <div class="head">
+          <nav>
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="Skills.html">Skills</a></li>
+                    <li><a href="certificate.html">Certificate</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+      </div>
+    </header>
+
+    <script src="script.js"></script>
+
+    <section class="skills-container">
+        <div class="technical">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>
+                    <p>Python</p>    
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;">75%</div>
+                    </div>
+                </li>
+                <li>
+                    <p>Html</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;">80%</div>
+                    </div>
+                </li>
+                <li>
+                    <p>Css</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;">80%</div>
+                    </div>
+                </li>
+                <li>
+                    <p>Flask</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 60%;">60%</div>
+                    </div>
+                </li>
+                <li>
+                    <p>SQL</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 55%;">55%</div>
+                    </div>
+                </li>
+                <!-- Add more technical skills as needed -->
+            </ul>
+        </div>
+
+        <div class="non-technical">
+            <h2>Non-Technical Skills</h2>
+            <ul>
+                <li>
+                    <p>Communication</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;">85%</div>
+                    </div>
+                </li>
+                <li>
+                    <p>Teamwork</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%;">70%</div>
+                    </div>
+                </li>
+                <li>
+                    <p>Problem Solving</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;">80%</div>
+                    </div>
+                </li>
+                <li>
+                    <p>Creativity</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%;">70%</div>
+                    </div>
+                </li>
+                
+                <!-- Add more non-technical skills as needed -->
+            </ul>
+        </div>
+    </section>
+    <div class="intern">
+        <br>
+        <br>
+        <br>
+        <h2 style="color: aliceblue;">Internship</h2>
+        <h3>Campany Name:</h3>
+        <p>As an intern at <span>Kaar Technologies</span>, I gained valuable experience in <span>SAP & DIGIVERZ</span>. Through Angular, I developed a <span>Sales Forecast Project</span> 
+            . Overall, my internship at Kaar Technologies gave me a strong foundation for my future career in SAP.</p>
+        <h3>Skills Learned:</h3>
+        <p><b>Power BI ,Flask ,Angular ,ERP </b></p>
+        <h3>Project: </h3>
+        <p>Sales Forecast Prediction</p>
+        </div>
+
+
+
+
+    
+</body>
+<script>
+    window.onload = function() {
+  var progressBars = document.querySelectorAll(".progress");
+  progressBars.forEach(function(progressBar) {
+    var width = progressBar.style.width;
+    progressBar.style.width = "0%";
+    setTimeout(function() {
+      progressBar.style.width = width;
+    }, 500);
+  });
+};
+</script>
+</html>
